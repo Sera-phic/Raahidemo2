@@ -1,0 +1,81 @@
+body, html, .app {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  height: 100%;
+}
+
+/* Theme */
+.app.dark {
+  background: #0b1e36;
+  color: white;
+}
+.app.light {
+  background: #f4f4f4;
+  color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background: #102c57;
+  color: turquoise;
+}
+
+.theme-toggle {
+  background: turquoise;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  height: calc(100vh - 60px);
+}
+
+.map {
+  flex: 2;
+  background: #1b2a49;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.panel {
+  flex: 1;
+  padding: 20px;
+  background: #1e3d59;
+  color: white;
+}
+
+input, button {
+  width: 100%;
+  margin: 10px 0;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+button {
+  background: turquoise;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.results {
+  padding: 20px;
+}
+
+.option {
+  margin: 20px 0;
+  padding: 15px;
+  border: 1px solid turquoise;
+  border-radius: 8px;
+}
